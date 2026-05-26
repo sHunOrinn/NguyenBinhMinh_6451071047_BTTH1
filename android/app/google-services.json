@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "292905633005",
+    "project_id": "flutterth-73a2e",
+    "storage_bucket": "flutterth-73a2e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292905633005:android:b0af7e6fea397065c038e4",
+        "android_client_info": {
+          "package_name": "com.example.lab1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292905633005-58rusddm8095gu0mat5hurb6rcktc3dd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrA20jI_5IuP7aECw6EExTZPG5ewiLcz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292905633005-58rusddm8095gu0mat5hurb6rcktc3dd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "292905633005-9701rs53ss3cnmtte0mq1ofr7hr8karn.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.lab1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

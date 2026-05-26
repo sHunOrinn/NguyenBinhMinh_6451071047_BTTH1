@@ -3,11 +3,13 @@ import 'package:flutter/material.dart';
 class EmailField extends StatelessWidget {
   final String label;
   final String hintText;
+  final TextEditingController? controller;
 
   const EmailField({
     super.key,
     required this.label,
     required this.hintText,
+    this.controller,
   });
 
   @override
@@ -27,6 +29,7 @@ class EmailField extends StatelessWidget {
         const SizedBox(height: 10),
 
         TextField(
+          controller: controller,
           keyboardType: TextInputType.emailAddress,
           style: const TextStyle(
             color: Color(0xFF150B4D),

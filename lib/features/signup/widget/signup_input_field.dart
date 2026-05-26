@@ -7,6 +7,7 @@ class SignUpInputField extends StatelessWidget {
   final bool obscureText;
   final TextInputType keyboardType;
   final Widget? suffixIcon;
+  final TextEditingController? controller;
 
   const SignUpInputField({
     super.key,
@@ -15,6 +16,7 @@ class SignUpInputField extends StatelessWidget {
     this.obscureText = false,
     this.keyboardType = TextInputType.text,
     this.suffixIcon,
+    this.controller,
   });
 
   @override
@@ -30,6 +32,7 @@ class SignUpInputField extends StatelessWidget {
         ),
         const SizedBox(height: 10),
         TextField(
+          controller: controller,
           obscureText: obscureText,
           keyboardType: keyboardType,
           style: SignUpTextStyles.input,
